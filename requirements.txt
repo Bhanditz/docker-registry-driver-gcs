@@ -1,2 +1,4 @@
 docker-registry-core==2.0.3
 gcs-oauth2-boto-plugin==1.8
+
+boto>=2.39.0 # not directly required, pinned by Snyk to avoid a vulnerability
